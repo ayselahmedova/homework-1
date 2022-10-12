@@ -1,0 +1,57 @@
+:root {
+    --reng_arxa_fon: #FCD200;
+    --float : left
+    
+}
+.main {
+    min-height: 600px;
+    width: 800px;
+    
+    float: var(--float);
+}
+
+.header {
+    min-height: 70px;
+    width: 800px;
+    background-color:var(--reng_arxa_fon);
+    float: var(--float);
+}
+
+.center {
+    min-height: 430px;
+    width: 800px;
+    /* background-color: purple; */
+    float: var(--float);
+    margin: 15px 0;
+}
+
+.footer {
+    min-height: 70px;
+    width: 800px;
+    background-color: var(--reng_arxa_fon);
+    float: var(--float);
+}
+
+
+
+.nav {
+    min-height: inherit;
+    width: 200px;
+    background-color: var(--reng_arxa_fon);
+    float: var(--float);
+}
+
+.article {
+    min-height: inherit;
+    width: 420px;
+    background-color: var(--reng_arxa_fon);
+    float: var(--float);
+    margin: 0 15px;
+}
+
+.ads {
+    min-height: inherit;
+    width: 150px;
+    background-color: var(--reng_arxa_fon);
+    float: var(--float);
+}
